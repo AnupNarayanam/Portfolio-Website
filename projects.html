@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="grid"></div>
+        <div class="lines">
+            <div class="line" style="left: 20%; --delay: 0"></div>
+            <div class="line" style="left: 40%; --delay: 1"></div>
+            <div class="line" style="left: 60%; --delay: 2"></div>
+            <div class="line" style="left: 80%; --delay: 3"></div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">MY PORTFOLIO</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html" class="active">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="projects">
+        <div class="container">
+            <h1 class="page-title fade-in">My Projects</h1>
+            
+            <div class="project-filters fade-in delay-1">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="web">Cybersecurity</button>
+                <button class="filter-btn" data-filter="ui">UI Design</button>
+                <button class="filter-btn" data-filter="mobile">App Development</button>
+            </div>
+            
+            <div class="projects-grid fade-in delay-2">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">E-Book Store Website</h3>
+                        <p class="project-category">Web Development</p>
+                        <p class="project-description">A fully responsive e-commerce platform built with Flask and Html/Css, featuring user authentication, Authorization, Review System , File upload part and applied sessions and cookies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">FLASK</span>
+                            <span class="tech-tag">SQLALCHEMY</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ui">
+                    <div class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-category">UI Design</p>
+                        <p class="project-description">A modern dashboard UI design for a data analytics platform, featuring intuitive data visualization components and a clean user interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Adobe XD</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">CHAT-APP</h3>
+                        <p class="project-category">App Development</p>
+                        <p class="project-description">A Application is Built which allows the client and the servver to chat securly and i made another model too where 2 clients can chat securly with a single server as an anchor.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PYTHON</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Portfolio Website </h3>
+                        <p class="project-category">Web Development</p>
+                        <p class="project-description">A Portfolio website for myself to showcase mt talents and about me and my projects to industry professionals, featuring smooth animations, responsive design, and easy content management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ui">
+                    <div class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Pokedex App Design</h3>
+                        <p class="project-category">UI Design</p>
+                        <p class="project-description">A comprehensive UI design for a Pokedex application, with a focus on Selectivity, Accessibility , and a seamless user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Sketch</span>
+                            <span class="tech-tag">Prototype</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Music paradise</h3>
+                        <p class="project-category">App Development</p>
+                        <p class="project-description">An App Where users can listen , save and download the songs they like even publish them online . </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/AnupNarayanam" class="social-link" target="_blank"><img src="github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/anup-narayanam-a154a3319/" class="social-link" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/anup_narayanam/" class="social-link" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://www.threads.net/@anup_narayanam" class="social-link" target="_blank"><img src="threads.png" alt="Threads"></a>
+            </div>
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Home</a>
+                <a href="about.html" class="footer-link">About</a>
+                <a href="projects.html" class="footer-link">Projects</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
